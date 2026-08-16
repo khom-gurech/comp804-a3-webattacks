@@ -1,3 +1,4 @@
+/* Task 1: Header Information */
 #task1 {
   color: darkblue;
   background-color: lightblue;
@@ -6,4 +7,48 @@
   border-radius: 8px;
   font-family: Arial, sans-serif;
   text-align: left;
+}
+/* Task 2: Key Dates Table */
+
+#sessionDates {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 4px double #7d5a9e;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+#sessionDates th {
+  background-color: #5b2c83;
+  color: white;
+  padding: 14px;
+  text-align: left;
+  font-size: 18px;
+  border: 2px dashed #c9a7e8;
+}
+
+#sessionDates td {
+  padding: 12px;
+  border: 1px dashed #7d5a9e;
+  vertical-align: top;
+}
+
+#sessionDates tbody tr:nth-child(odd) {
+  background-color: #fff4d6;
+  color: #4b3621;
+}
+
+#sessionDates tbody tr:nth-child(even) {
+  background-color: #dff5ee;
+  color: #163c3a;
+}
+
+#sessionDates a {
+  color: #7a1fa2;
+  font-weight: bold;
+}
+
+#sessionDates a:hover {
+  color: #d35400;
+  text-decoration: none;
 }
