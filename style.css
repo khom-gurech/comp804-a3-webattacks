@@ -52,3 +52,98 @@
   color: #d35400;
   text-decoration: none;
 }
+/* Task 3: Web Attacks Table */
+
+#task3 {
+  margin-top: 40px;
+}
+
+#task3 h2 {
+  color: #7b1e48;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+#webAttacks {
+  width: 95%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 3px solid #7b1e48;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+#webAttacks th {
+  background-color: #7b1e48;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid #4d102d;
+}
+
+#webAttacks td {
+  padding: 15px;
+  border: 2px solid #7b1e48;
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+/* First column */
+#webAttacks td:first-child {
+  width: 25%;
+  text-align: center;
+}
+
+/* Second column */
+#webAttacks td:nth-child(2) {
+  width: 75%;
+}
+
+/* Alternate row colours */
+#webAttacks tbody tr:nth-child(odd) {
+  background-color: #fff2f7;
+  color: #331522;
+}
+
+#webAttacks tbody tr:nth-child(even) {
+  background-color: #f2f7ff;
+  color: #172b4d;
+}
+
+/* Attack names */
+#webAttacks td strong {
+  display: block;
+  color: #7b1e48;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+/* Images */
+#webAttacks img {
+  margin-top: 5px;
+  border: 2px solid #555;
+}
+
+/* Links */
+#webAttacks a {
+  color: #0056b3;
+  font-weight: bold;
+}
+
+#webAttacks a:hover {
+  color: #b30059;
+  text-decoration: none;
+}
+
+/* Reference text */
+#webAttacks .reference {
+  font-size: 13px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Image source text */
+#webAttacks .image-source {
+  font-size: 11px;
+  font-style: italic;
+  color: #666;
+}

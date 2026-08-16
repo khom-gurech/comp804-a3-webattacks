@@ -82,10 +82,7 @@
                 <li>Last day to change HECS / FEE HELP billing option</li>
               </ul>
 
-              <a
-                href="https://www.uow.edu.au/student/dates/"
-                target="_blank"
-              >
+              <a href="https://www.uow.edu.au/student/dates/" target="_blank">
                 Learn more about Census date
               </a>
             </td>
@@ -143,6 +140,502 @@
           <tr>
             <td>Supplementary and deferred exam period</td>
             <td>20 Jul - 24 Jul 2026</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- Task 3: HTML & CSS - Web Attacks -->
+    <section id="task3">
+      <h2>Task 3: HTML &amp; CSS - Web Attacks</h2>
+
+      <table id="webAttacks">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Web Attacks</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <!-- 1. SQL Injection -->
+          <tr>
+            <td>
+              <strong>SQL Injection</strong>
+              <br />
+              <img
+                src="images/sql_injection.jpg"
+                alt="SQL Injection"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:SQL_injection.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Wikimedia Commons
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                SQL injection occurs when untrusted input is incorporated into a
+                database query in an unsafe way. An attacker may manipulate the
+                query so that the database performs actions the application did
+                not intend. A successful attack can expose, modify or delete
+                information stored in the database.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-community/attacks/SQL_Injection"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about SQL Injection
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - SQL Injection
+              </p>
+            </td>
+          </tr>
+
+          <!-- 2. Cross-Site Scripting -->
+          <tr>
+            <td>
+              <strong>Cross-Site Scripting (XSS)</strong>
+              <br />
+              <img
+                src="images/xss.jpg"
+                alt="Cross-Site Scripting"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:Cross-Site_Scripting_(XSS).png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Wikimedia Commons
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                Cross-Site Scripting occurs when untrusted content is treated as
+                executable script in a user's web browser. The malicious script
+                runs in the context of a trusted website and can act using the
+                victim's browser session. XSS can be used to steal sensitive
+                information, impersonate users, redirect victims or change the
+                content displayed on a webpage.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-community/attacks/xss/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about Cross-Site Scripting
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - Cross Site Scripting (XSS)
+              </p>
+            </td>
+          </tr>
+
+          <!-- 3. Cross-Site Request Forgery -->
+          <tr>
+            <td>
+              <strong>Cross-Site Request Forgery (CSRF)</strong>
+              <br />
+              <img
+                src="images/csrf.jpg"
+                alt="Cross-Site Request Forgery"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Imperva
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                Cross-Site Request Forgery tricks an authenticated user's
+                browser into sending a request that the user did not intend.
+                Because the browser may automatically include the user's session
+                credentials, a vulnerable website can treat the forged request
+                as legitimate. A successful CSRF attack can cause actions such
+                as changing account details or performing transactions without
+                the user's permission.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-community/attacks/csrf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about Cross-Site Request Forgery
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - Cross Site Request Forgery
+              </p>
+            </td>
+          </tr>
+
+          <!-- 4. Command Injection -->
+          <tr>
+            <td>
+              <strong>Command Injection</strong>
+              <br />
+              <img
+                src="images/OS_Command_injection.jpg"
+                alt="Command Injection"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:OS_Command_injection.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Wikimedia Commons
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                Command injection occurs when unsafe user-controlled data is
+                passed to an operating-system command interpreter. An attacker
+                may add commands that are then executed by the server with the
+                privileges of the vulnerable application. This type of attack is
+                commonly associated with insufficient input validation and
+                unsafe use of system commands.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-community/attacks/Command_Injection"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about Command Injection
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - Command Injection
+              </p>
+            </td>
+          </tr>
+
+          <!-- 5. Path Traversal -->
+          <tr>
+            <td>
+              <strong>Path Traversal</strong>
+              <br />
+              <img
+                src="images/path-traversal.jpg"
+                alt="Path Traversal"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://www.spanning.com/blog/directory-traversal-web-based-application-security-part-8/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Spanning
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                Path traversal is an attack that attempts to access files and
+                directories outside the location that a web application normally
+                allows. An attacker may manipulate file paths using sequences
+                such as ../ or by supplying absolute file paths. If successful,
+                the attack may expose application source code, configuration
+                files or sensitive operating-system files.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-community/attacks/Path_Traversal"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about Path Traversal
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - Path Traversal
+              </p>
+            </td>
+          </tr>
+
+          <!-- 6. Server-Side Request Forgery -->
+          <tr>
+            <td>
+              <strong>Server-Side Request Forgery (SSRF)</strong>
+              <br />
+              <img
+                src="images/ssrf.jpg"
+                alt="Server-Side Request Forgery"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://www.linkedin.com/pulse/server-side-request-forgery-ssrf-understanding-threat-real-world-wpu1f"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                Server-Side Request Forgery occurs when an attacker causes a
+                server-side application to make requests to a location chosen or
+                influenced by the attacker. Because the request originates from
+                the server, it may be able to reach internal services that are
+                not directly available from the Internet. A successful SSRF
+                attack may expose sensitive information or allow interaction
+                with internal systems.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-community/attacks/Server_Side_Request_Forgery"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about Server-Side Request Forgery
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - Server Side Request Forgery
+              </p>
+            </td>
+          </tr>
+
+          <!-- 7. Clickjacking -->
+          <tr>
+            <td>
+              <strong>Clickjacking</strong>
+              <br />
+              <img
+                src="images/Clickjacking.jpg"
+                alt="Clickjacking"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://commons.wikimedia.org/wiki/File:Clickjacking.png"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Wikimedia Commons
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                Clickjacking uses hidden or deceptive webpage layers to trick a
+                user into clicking something different from what they believe
+                they are clicking. A legitimate page or control may be placed
+                underneath another visible element so that the user's click is
+                redirected. The attack can cause a victim to perform an
+                unintended action on another website or application.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-community/attacks/Clickjacking"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about Clickjacking
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - Clickjacking
+              </p>
+            </td>
+          </tr>
+
+          <!-- 8. Session Hijacking -->
+          <tr>
+            <td>
+              <strong>Session Hijacking</strong>
+              <br />
+              <img
+                src="images/session-hijacking.jpg"
+                alt="Session Hijacking"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://sectigostore.com/blog/session-hijacking-attacks-session-hijacking-explained/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  sectigostore
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                Session hijacking occurs when an attacker obtains or abuses a
+                valid user's session identifier, which is commonly stored in a
+                browser cookie. By presenting the stolen session information to
+                a vulnerable application, the attacker may be treated as the
+                legitimate user. This can allow access to the victim's
+                authenticated session without requiring the victim's password.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Session_Management_Testing/09-Testing_for_Session_Hijacking"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about Session Hijacking
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - Testing for Session Hijacking
+              </p>
+            </td>
+          </tr>
+
+          <!-- 9. Brute-Force Attack -->
+          <tr>
+            <td>
+              <strong>Brute-Force Attack</strong>
+              <br />
+              <img
+                src="images/brute-force.jpg"
+                alt="Brute-Force Attack"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://www.thesslstore.com/blog/brute-force-attack-definition-how-brute-force-works/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  The SSL Store
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                A brute-force attack repeatedly tries passwords or other
+                credentials until a valid combination is discovered. Automated
+                tools can perform large numbers of authentication attempts and
+                may use dictionaries or commonly used passwords to improve
+                efficiency. Weak passwords and inadequate protection against
+                repeated login attempts increase the risk of this attack.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-community/attacks/Brute_force_attack"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about Brute-Force Attacks
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - Brute Force Attack
+              </p>
+            </td>
+          </tr>
+
+          <!-- 10. Denial-of-Service -->
+          <tr>
+            <td>
+              <strong>Denial-of-Service (DoS)</strong>
+              <br />
+              <img
+                src="images/dos.jpg"
+                alt="Denial-of-Service Attack"
+                width="160"
+              />
+              <p class="image-source">
+                Image source:
+                <a
+                  href="https://www.spanning.com/blog/denial-of-service-attacks-web-based-application-security-part-7/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Spanning
+                </a>
+              </p>
+            </td>
+
+            <td>
+              <p>
+                A Denial-of-Service attack aims to make a website, application
+                or server unavailable to legitimate users. An attacker may
+                overwhelm the target with requests or exploit resource-handling
+                weaknesses so that the system can no longer respond normally.
+                The result can range from significant performance problems to
+                complete loss of availability.
+              </p>
+
+              <p>
+                <a
+                  href="https://owasp.org/www-community/attacks/Denial_of_Service"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  More information about Denial-of-Service
+                </a>
+              </p>
+
+              <p class="reference">
+                Reference: OWASP Foundation - Denial of Service
+              </p>
+            </td>
           </tr>
         </tbody>
       </table>
