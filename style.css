@@ -1,0 +1,9 @@
+#task1 {
+  color: darkblue;
+  background-color: lightblue;
+  border: 2px solid navy;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
