@@ -147,3 +147,71 @@
   font-style: italic;
   color: #666;
 }
+/* Task 4: JavaScript with Buttons */
+
+#task4 {
+  margin-top: 40px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#task4 h2 {
+  color: #234e70;
+}
+
+#animalButtons {
+  margin-bottom: 15px;
+}
+
+#animalButtons button {
+  padding: 10px 20px;
+  margin-right: 8px;
+  border: 2px solid #234e70;
+  background-color: #e8f1f8;
+  color: #234e70;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#animalButtons button:hover {
+  background-color: #cfe3f1;
+}
+
+/* Currently selected button */
+#animalButtons button.selectedAnimal {
+  background-color: #234e70;
+  color: white;
+}
+
+#animalText {
+  width: 250px;
+  padding: 8px;
+  border: 2px solid #234e70;
+  margin-bottom: 10px;
+}
+
+#animalMessage {
+  font-size: 18px;
+  font-weight: bold;
+  color: #7b1e48;
+}
+
+#animalImage {
+  display: block;
+  margin-top: 10px;
+  border: 3px solid #234e70;
+}
+
+#animalImage:not([src]),
+#animalImage[src=""] {
+  display: none;
+}
+
+#animalImageSource {
+  font-size: 12px;
+  font-style: italic;
+}
+
+#animalImageSource a {
+  color: #0056b3;
+}

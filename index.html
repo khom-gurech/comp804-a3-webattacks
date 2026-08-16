@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>COMP804 Assignment 1 - Khom Gurech</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -639,6 +640,32 @@
           </tr>
         </tbody>
       </table>
+    </section>
+
+    <!-- Task 4: JavaScript with Buttons -->
+    <section id="task4">
+      <h2>Task 4: JavaScript with Buttons</h2>
+
+      <div id="animalButtons">
+        <button id="catButton" onclick="showAnimal('cat')">Cat</button>
+        <button id="dogButton" onclick="showAnimal('dog')">Dog</button>
+        <button id="frogButton" onclick="showAnimal('frog')">Frog</button>
+      </div>
+
+      <div id="animalOutput">
+        <input
+          type="text"
+          id="animalText"
+          aria-label="Selected animal message"
+          readonly
+        />
+
+        <p id="animalMessage"></p>
+
+        <img id="animalImage" src="" alt="" width="400" />
+
+        <p id="animalImageSource"></p>
+      </div>
     </section>
   </body>
 </html>
