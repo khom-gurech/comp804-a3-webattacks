@@ -187,11 +187,12 @@
 
             <td>
               <p>
-                SQL injection occurs when untrusted input is incorporated into a
-                database query in an unsafe way. An attacker may manipulate the
-                query so that the database performs actions the application did
-                not intend. A successful attack can expose, modify or delete
-                information stored in the database.
+                SQL injection happens when input that is not trusted is included
+                in a database query without proper safety measures. This allows
+                an attacker to alter the query, causing the database to execute
+                actions that were not intended by the application. If the attack
+                succeeds, it can lead to the exposure, alteration, or removal of
+                data stored within the database.
               </p>
 
               <p>
@@ -234,12 +235,12 @@
 
             <td>
               <p>
-                Cross-Site Scripting occurs when untrusted content is treated as
-                executable script in a user's web browser. The malicious script
-                runs in the context of a trusted website and can act using the
-                victim's browser session. XSS can be used to steal sensitive
-                information, impersonate users, redirect victims or change the
-                content displayed on a webpage.
+                Cross-Site Scripting happens when a user's web browser executes
+                untrusted content as a script. This harmful script operates
+                within the framework of a trusted website, allowing it to
+                perform actions using the victim's browser session. XSS can be
+                exploited to capture sensitive data, impersonate users, redirect
+                individuals, or modify the content displayed on a webpage.
               </p>
 
               <p>
@@ -282,13 +283,13 @@
 
             <td>
               <p>
-                Cross-Site Request Forgery tricks an authenticated user's
-                browser into sending a request that the user did not intend.
-                Because the browser may automatically include the user's session
-                credentials, a vulnerable website can treat the forged request
-                as legitimate. A successful CSRF attack can cause actions such
-                as changing account details or performing transactions without
-                the user's permission.
+                Cross-Site Request Forgery manipulates a logged-in user's
+                browser to submit an unintended request. Since the browser might
+                automatically attach the user's session credentials, a
+                susceptible website could recognize the fraudulent request as
+                valid. If a CSRF attack succeeds, it might lead to actions like
+                modifying account information or executing transactions without
+                the user's consent.
               </p>
 
               <p>
@@ -331,12 +332,13 @@
 
             <td>
               <p>
-                Command injection occurs when unsafe user-controlled data is
-                passed to an operating-system command interpreter. An attacker
-                may add commands that are then executed by the server with the
-                privileges of the vulnerable application. This type of attack is
-                commonly associated with insufficient input validation and
-                unsafe use of system commands.
+                Command injection happens when user-supplied data, which is not
+                properly secured, is fed into an operating system's command
+                interpreter. This vulnerability can be exploited by attackers to
+                insert additional commands, which the server then runs with the
+                same permissions as the affected application. Such attacks are
+                often linked to poor input validation and the unsafe execution
+                of system commands.
               </p>
 
               <p>
@@ -379,12 +381,12 @@
 
             <td>
               <p>
-                Path traversal is an attack that attempts to access files and
-                directories outside the location that a web application normally
-                allows. An attacker may manipulate file paths using sequences
-                such as ../ or by supplying absolute file paths. If successful,
-                the attack may expose application source code, configuration
-                files or sensitive operating-system files.
+                Path traversal is a type of attack where the goal is to reach
+                files and directories beyond the usual boundaries set by a web
+                application. Attackers can alter file paths by using sequences
+                like ../ or by providing complete file paths. If the attack
+                succeeds, it could reveal application source code, configuration
+                files, or sensitive files from the operating system.
               </p>
 
               <p>
@@ -427,13 +429,13 @@
 
             <td>
               <p>
-                Server-Side Request Forgery occurs when an attacker causes a
-                server-side application to make requests to a location chosen or
-                influenced by the attacker. Because the request originates from
-                the server, it may be able to reach internal services that are
-                not directly available from the Internet. A successful SSRF
-                attack may expose sensitive information or allow interaction
-                with internal systems.
+                Server-Side Request Forgery takes place when a server-side
+                application is manipulated by an attacker to send requests to a
+                destination selected or affected by the attacker. Since the
+                request is initiated by the server, it might access internal
+                services that are not accessible directly from the Internet. If
+                an SSRF attack is successful, it could reveal confidential
+                information or enable communication with internal systems.
               </p>
 
               <p>
@@ -524,12 +526,12 @@
 
             <td>
               <p>
-                Session hijacking occurs when an attacker obtains or abuses a
-                valid user's session identifier, which is commonly stored in a
-                browser cookie. By presenting the stolen session information to
-                a vulnerable application, the attacker may be treated as the
-                legitimate user. This can allow access to the victim's
-                authenticated session without requiring the victim's password.
+                Session hijacking takes place when an attacker captures or
+                misuses a legitimate user's session ID, often found in a browser
+                cookie. By using this stolen session data with a susceptible
+                application, the attacker can be mistaken for the actual user.
+                This enables access to the victim's authenticated session
+                without needing their password.
               </p>
 
               <p>
@@ -572,12 +574,13 @@
 
             <td>
               <p>
-                A brute-force attack repeatedly tries passwords or other
-                credentials until a valid combination is discovered. Automated
-                tools can perform large numbers of authentication attempts and
-                may use dictionaries or commonly used passwords to improve
-                efficiency. Weak passwords and inadequate protection against
-                repeated login attempts increase the risk of this attack.
+                A brute-force attack involves continuously attempting various
+                passwords or credentials until the correct one is found.
+                Automated tools are capable of executing numerous authentication
+                attempts and might employ dictionaries or frequently used
+                passwords to enhance their effectiveness. The likelihood of this
+                attack is heightened by weak passwords and insufficient
+                safeguards against multiple login attempts.
               </p>
 
               <p>
@@ -620,12 +623,13 @@
 
             <td>
               <p>
-                A Denial-of-Service attack aims to make a website, application
-                or server unavailable to legitimate users. An attacker may
-                overwhelm the target with requests or exploit resource-handling
-                weaknesses so that the system can no longer respond normally.
-                The result can range from significant performance problems to
-                complete loss of availability.
+                A Denial-of-Service attack seeks to render a website,
+                application, or server inaccessible to authorized users. This
+                can be achieved by an attacker flooding the target with requests
+                or taking advantage of vulnerabilities in resource management,
+                causing the system to fail in responding as expected. The
+                consequences may vary from severe performance issues to a total
+                loss of accessibility.
               </p>
 
               <p>
@@ -674,7 +678,8 @@
     </section>
 
     <!-- Task 5: GitHub Repository -->
-    <section id="task5">`
+    <section id="task5">
+      `
       <h2>Task 5: GitHub Repository</h2>
       <p>
         <a
